@@ -24,8 +24,11 @@ public class Boletin26 extends javax.swing.JFrame {
        
     }
 
-   public void elegirNum(){
-       int num = 0;
+   public void elegirNum(int num){
+       int num = num;
+       this.num = num;
+       
+      
        ArrayList<Integer> numeros = new ArrayList<Integer>();              
         for(int i = 0; i <6; i++){
             numeros.add(num);              
@@ -464,7 +467,7 @@ public class Boletin26 extends javax.swing.JFrame {
 
     private void n1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_n1ActionPerformed
        int num = 1;
-       elegirNum();
+       elegirNum(num);
         
         
     }//GEN-LAST:event_n1ActionPerformed
